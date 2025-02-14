@@ -8,19 +8,19 @@ This project simulates **gameplay session data** for a multiplayer game and perf
 
 📂 **Repository Contents**  
 
-- **`battlefield_gameplay_data_simulation.py`**  
+- **[`battlefield_gameplay_data_simulation.py`](battlefield_gameplay_data_simulation.py)**
   - Python script to **simulate player session data** with realistic **drop-off behavior**, game modes, performance metrics, and retention trends.  
   - Saves the dataset as a CSV file for further analysis.  
 
-- **`bigquery_sql_script.md`**  
+- **[`bigquery_sql_script.md`](bigquery_sql_script.md)**  
   - Contains **SQL queries** to analyze retention rates using **BigQuery**.  
   - Queries include **cohort-based retention, daily retention trends, and segmented retention by country, platform, match mode, and role**.  
 
-- **`battlefield_gameplay_data.csv`**  
+- **[`battlefield_gameplay_data.csv`](battlefield_gameplay_data.csv)**  
   - The **simulated dataset** generated from the Python script.  
   - Includes session dates, player attributes, match performance, and calculated statistics.  
 
-- **`battlefield_retention_dashboard.pdf`**  
+- **[`battlefield_retention_dashboard.pdf`](battlefield_retention_dashboard.pdf)**  
   - A **Looker Studio dashboard** visualizing retention trends, engagement drop-off, and performance metrics.  
   - Provides insights into **player activity, retention rates, and gameplay behavior over time**.  
 
@@ -35,7 +35,7 @@ Below is a snapshot of the **Looker Studio dashboard**.
 ## **Key Features**  
 
 ### ✅ **Gameplay Data Simulation**
-- Simulates **player sessions** over multiple years from the **game’s release (Nov 12, 2021) until today**.  
+- Simulates **player sessions** over multiple years from the **game's release (Nov 12, 2021) until today**.  
 - Models **player drop-off**, where session frequency decreases over time.  
 - Generates player attributes such as **game mode, role, platform, and country**.  
 - Adds **performance metrics (kills, deaths, assists, revives, achievements, etc.)** that scale with player experience.  
